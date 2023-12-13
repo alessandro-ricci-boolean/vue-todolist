@@ -3,3 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+img{
+    height: 50px;
+}
+
+header{
+    height: 75px;
+}
+
+main{
+    background-color: #001533;
+    height: calc(100vh - 75px);
+}
+
+.todolist-container{
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: white;
+}
+
+li{
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+}
+
+.bg-blue{
+    background-color: rgba(0, 0, 255, 0.5);
+}
