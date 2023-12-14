@@ -36,5 +36,6 @@ createApp({
         toggleDone(index){
             this.todo_list[index].done = !todo_list[index].done;
         }
+        
     }
 }).mount("#app");
